@@ -1,0 +1,20 @@
+Arrays
+    1.Prefix Sum
+        1.Sum of even indices in the range {L,R};
+        2.Sum of odd indices in the range {L,R}; 
+        3.Equilibrium index (sum of right elements equal to sum of left element) 724.leetcode
+        4.Special Index: after removing  one element sum of even indexed element is equal to sum of odd indexed element 1664.leetcode 
+        5.2-d Prefix sum divide the matrix into 4 quadrant and get the minimum mangoes field
+    2.Carry forward
+        1.Pair of a and g in string
+        2.Leader of array
+        3.Find the length of min subarray containing both max and min element
+    3.Two Pointer
+        1.Two sum
+        2.Three sum
+        3.Trapping rain water
+    -------
+        1. Maximum subarray sum
+        2. Histogram Area problem
+        3. Maximum area of rectangle with all 1
+Bit masking 
