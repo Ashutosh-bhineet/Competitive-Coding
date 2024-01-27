@@ -37,5 +37,5 @@ int main(){
     int n;
     cin>>n;
     vector<int> dp(n+1,-1);
-    cout<<min_steps(n,dp);
+    cout<<minSteps(n);
 }
