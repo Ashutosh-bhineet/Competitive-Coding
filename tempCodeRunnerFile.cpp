@@ -1,3 +1,4 @@
-                    start_fuel+=pq.top();
-                    pq.pop();
-                    count++;
+    if(t==0){
+        solve(s,i+1,n,ans,substr);
+        return;
+    }

@@ -15,5 +15,13 @@ int main(){
     int n;
     cin>>n;
     vector<int> dp(n+1,-1);
-    cout<<Bst(n,dp);
+    dp[0]=1;
+    for(int i=1;i<=n;i++){
+        int ans=0;
+        for(int j=1;j<=i;j++){
+            ans+=dp[j-1]*dp[i-j];
+        }
+        dp[i]=ans;
+    }
+    cout<<dp[n]<<endl;
 }
