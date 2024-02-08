@@ -157,10 +157,7 @@
      
     	//read ladders
      
-    	//create the graph 
-     
-    	addEdge();
-     
+    	//create the graph  
      
      
      
